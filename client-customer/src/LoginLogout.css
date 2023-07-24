@@ -1,0 +1,73 @@
+.LoginSignup-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.LoginSignup-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.LoginSignup-table {
+    width: 100%;
+}
+
+.LoginSignup-table td {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.LoginSignup-submit {
+    margin: 0 auto;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.LoginSignup-submit:hover {
+    background-color: #0056b3;
+}
+
+.LoginSignup-submit-link {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #007bff;
+    padding-right: 25px;
+}
+
+.LoginSignup-submit-link:hover {
+    text-decoration: underline;
+}
+
+.LoginSignup-submit-link:hover,
+.LoginSignup-submit:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.LoginSignup-table input[type="text"]:hover,
+.LoginSignup-table input[type="password"]:hover {
+    border-color: #007bff;
+}
+
+.LoginSignup-container:hover {
+    border-color: #8a7e7e;
+    transform: scale(1.05);
+}
+
+.LoginSignup-submit-link,
+.LoginSignup-submit {
+    opacity: 0.8;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}

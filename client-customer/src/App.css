@@ -1,0 +1,225 @@
+/* styles.css */
+.body-customer {
+  /* width: 1150px; */
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.top-menu {
+  display: flex;
+}
+
+.fill {
+  margin-left: 55px;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.menu-container {
+  display: flex;
+
+}
+
+.menu-container a {
+  height: 120px;
+}
+
+.menu-all {
+  width: 100%;
+}
+
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+div.inline {
+  display: inline-block;
+  margin-left: -30px;
+}
+
+div.inline-newhot {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+div.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* menu.css */
+div.border-bottom {
+  border-top: 1px solid #b5b0b0;
+  /* padding: 10px 0px 5px 0px; */
+}
+
+div.float-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 55px;
+  margin-top: 17px;
+}
+
+div.float-right {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  gap: 40px;
+}
+
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  display: flex;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  padding-right: 20px;
+
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+}
+
+form.search {
+  margin-right: 5px;
+}
+
+input.keyword {
+  width: 200px;
+}
+
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #ffeeaa;
+}
+
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+
+/* img */
+@property --a {
+  /* control the gradient rotation (no need to update) */
+  syntax: "<angle>";
+  initial-value: 45deg;
+  inherits: true;
+}
+
+@property --r {
+  syntax: "<angle>";
+  initial-value: 5deg;
+  /* control the image rotation */
+  inherits: true;
+}
+
+@property --p {
+  /* control the color stops of the gradient (no need to update) */
+  syntax: "<percentage>";
+  initial-value: 0%;
+  inherits: true;
+}
+
+/* logo */
+.logo {
+  height: 120px;
+  border-right: 1px solid #b5b0b0;
+}
+
+/* footer */
+.footer {
+  font-size: 14px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3b3b3b;
+  color: white;
+  padding: 20px 102px;
+}
+
+.footer-top-item {
+  padding-left: 10px;
+
+}
+
+.footer-bottom {
+  justify-content: space-between;
+  display: flex;
+  background-color: #131313;
+  color: white;
+  padding: 20px 102px;
+}
+
+.footer-bottom-item a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-text {
+  position: absolute;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  color: #3b3bdd;
+  position: relative;
+  margin: 7px;
+  left: 130px;
+  height: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
